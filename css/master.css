@@ -2,16 +2,22 @@ header {
   height: 200px;
 }
 
-section>.wolf {
-  background-image: url(/assets/wolf.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+header .disclaimer {
+  text-align: center;
+  color: hsla(120, 12%, 59%, 1);
+
+}
+
+section.wolf {
+  text-align: center;
+  position: fixed;
+}
+
+section.wolf>svg {
   height: 394px;
 }
 
 footer {
-  color: hsla(120, 12%, 59%, 1);
   height: 90px;
   text-align: center;
 }
